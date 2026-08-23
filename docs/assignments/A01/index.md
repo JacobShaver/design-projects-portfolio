@@ -7,7 +7,7 @@ Use the analyze, decide and communicate pillars, in order to develop a portfolio
 ### Task A - Portfolio Analysis
 For this task I evaluated two portfolio's by four main points; navigability, reproducibility, evidence of reasoning and professional tone.
 
-**Portfolio 1: For the first portfolio I found a Nathan Hoong's engineering portfolio on git hub. (Hoong, N. (n.d.). Engineering portfolio: Nathan Hoong. Nathan Hoong’s Engineering Portfolio. https://nhoong.github.io/)**
+**Portfolio 1: For the first portfolio I found Nathan Hoong's engineering portfolio on git hub. (https://nhoong.github.io/)**
 
 Navigability: This portfolio was very well structured and listed Nathan's big projects in order and explained each one in detail. All it took to find the descriptions, engineering drawings, and cad models was to scroll down and find the desired projects.
 
@@ -16,6 +16,8 @@ Reproducibility: Each project is well documented and any engineer could immediat
 Evidence of reasoning: The portfolio was a little lacking in this section. His senior capstone was very well detailed and gave reasons for the choices made during the prototyping process. However, most of the other designs are just showing the finished product and what it does without actually giving reasoning for the design choices.
 
 Professional tone: I think this portfolio had good professional tone. All of the descriptions were detailed as to exactly what function the designs were preforming and the whole document was up to a standard in which I would show an employer.
+
+**Portfolio 2: For the second portfolio I chose Patrick Brennan's portfolio. This portfolio was for this same class but in a previous semester. (https://instructure.charlotte.edu/eportfolios/4268/home)**
 
 ### Task B - Product Analysis
 **For this task I chose a spring clamp as my product.**
