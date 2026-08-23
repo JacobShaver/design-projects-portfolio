@@ -24,7 +24,7 @@ The Primary function of the spring clamp is to apply and maintain a clamping for
 
 The governing model of the primary function of this spring clamp is the torsional spring relationship. This is seen as: &tau;=k*&theta;:
 
-Where &tau; is the torque produced by the spring, k is the torsional spring constant, and &theta; is the angular displacement of the spring from its unloaded position. This model shows that the spring produces a torque that drives the two jaws toward each other. **Assumption to be made**
+Where &tau; is the torque produced by the spring, k is the torsional spring constant, and &theta; is the angular displacement of the spring from its unloaded position. This model shows that the spring produces a torque that drives the two jaws toward each other. An assumption can be made that the spring behaves linearly, which tells us that the torque produced by the spring is proportional to the angle of deviation from its resting position.
 
 **Component 1 and 2: Both Jaws**
 
