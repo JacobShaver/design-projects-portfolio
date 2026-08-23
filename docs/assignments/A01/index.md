@@ -47,6 +47,8 @@ Two alternative solutions would be a wire clothespin and a binder clip. The wire
 One specific design decision I would highlight is the elongated geometry of the two jaws to provide a lever arm. This decision was most likely made because lever action provides mechanical advantage. This allows for a relatively small amount of force being needed to pry the jaws apart, but still gives a good amount of torque from the spring in order to hold the jaws shut. This also allows for the product to be used one handed. 
 ## Decide
 
-
+1.  Homepage Identity : 
+2.  One Intentional Customization : One intentional decision I made is to present a professional headshot of myself on the homepage. When making this decision I looked back to some of my previous portfolio analysis. I found that the portfolio with a picture of the author was much more personable and immediately gave the portfolio a professional-feeling. The other portfolio had a picture of the author; however, I had to seek out that picture rather than it being the first thing I see. The other reasoning I chose to do this is because I know plenty of people who like to put faces to names and this is the best way to do that without them having to actively seek it out in the about me page
+3.  Your Documentation Standard : I commit to give every entry/assignment in this portfolio my all, which means that I will research each topic in depth and fully think out my decisions based on that research before making them.
 ## Communicate
 
