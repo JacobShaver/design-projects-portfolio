@@ -26,7 +26,7 @@ Where &tau; is the torque produced by the spring, k is the torsional spring cons
 
 #### Component 1 and 2: Both Jaws
 
-![Alt text](path/to/image.png)
+![Alt text](docs/assignments/USD0665246-20120814-D00002.png)
 
 
 
