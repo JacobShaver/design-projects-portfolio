@@ -28,13 +28,13 @@ Where &tau; is the torque produced by the spring, k is the torsional spring cons
 
 **Component 1 and 2: Both Jaws**
 
-![Alt text](USD0665246-20120814-D00002.png)
+![Alt text](IMG_3536.jpeg)
 
 The first two components are two plastic jaws the mirror each other and hold the same functions. The geometry of these pieces is elongated, which provides a lever arm between the spring or pivot region. This geometry allows for less force and movement from the users fingers in order to produce movement at the jaws. The wide curve at the edge of the jaws and grooves on the face allows for more surface connection when the pin clamps down on an object. The groove on the side of the piece lets the spring sit on the jaw without moving around. The two jaws are connected via a ball and socket connection, which allows for smooth opening and closing at the pivot point.
 
 **Component 3: Spring/Wire** 
 
-![Alt text](USD0665246-20120814-D00002.png)
+![Alt text](IMG_3537.jpeg)
 
 The wire is shaped in a way that functions the same as a torsional spring. The wire extends over the top of the two jaws in order to hold them together at a fixed clamping position. When the handles are squeezed the jaws force the wire to rotate away from its relaxed position. This allows for the wire to store up elastic energy, which is then released as torque once the handle stops being squeezed and forces the jaws to clamp back to the relaxed position. The position of the wire and where that pivot point is important as it determines the mechanical advantage and how much clamping force is produced at the jaws surface.
 
