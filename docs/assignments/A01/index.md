@@ -20,7 +20,7 @@ Professional tone: I think this portfolio had good professional tone. All of the
 ### Task B - Product Analysis
 **For this task I chose a spring clamp as my product.**
 
-The Primary function of the spring clamp is to apply and maintain a clamping force between two jaws, in order to secure an object like holding a bag shut or clamping clothes to a clothesline. A force applied by the users fingers produces a troque about the pivot, which drives the jaws open. Once the clip is over the desired object the force is released and the spring's elastic force rotates the jaws and they clamp down pinning the desired object. 
+The Primary function of the spring clamp is to apply and maintain a clamping force between two jaws, in order to secure an object like holding a bag shut or clamping clothes to a clothesline. A force applied by the users fingers produces a torque about the pivot, which drives the jaws open. Once the clip is over the desired object the force is released and the spring's elastic force rotates the jaws and they clamp down pinning the desired object. 
 
 The governing model of the primary function of this spring clamp is the torsional spring relationship. This is seen as: &tau;=k*&theta;:
 
