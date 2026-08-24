@@ -48,3 +48,4 @@ One specific design decision I would highlight is the elongated geometry of the 
 3.  Your Documentation Standard : I commit to give every entry/assignment in this portfolio my all, which means that I will research each topic in depth and fully think out my decisions based on that research before making them.
 ## Communicate
 
+Reference the About Me section.
