@@ -1,7 +1,7 @@
 # A2 – Truss Stress Analysis
 
 ## Objective
-
+![Alt text](IMG_3536.jpeg)
 
 ## Analyze
 
