@@ -16,10 +16,12 @@ The requirements are as follows:
 7. The truss system is to be lightweight and made of A500 steel.
 
 ## Analyze
-
+Given all of  this information my first instinct was to sit down and brainstorm different solutions that could be made. I took in all my parameters and started writing down all the combinations of truss elements that were possible within the orientation given in Figure 1. This was the hardest part to of the assignment because I wanted to balance efficiency and structural integrity, all while using as little amount of pins and elements as possible to minimize the overall weight of the truss. I also set my P value in stone at 20kN for simplicity given math with nicely rounded forces is often times better.
 
 ## Decide
-_Which geometry did you select, and why? This is your first open design choice in the course — defend it._
+After sitting down and going over all my parameters and given values I decided on the structure in Figure 2.
+
+
 
 ## Communicate
 
