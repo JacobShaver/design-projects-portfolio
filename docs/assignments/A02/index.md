@@ -32,11 +32,13 @@ Now after outlining all of my knowns, deciding on a structure, and determining s
 
 Throughout the entire design process I utilized the formulas for equilibrium, which are the sum of forces equal zero in all directions and sum of moments equal zero. 
 
+### External Forces
 ![Alt text](External-Forces.png)
 (Figure 3)
 
 As seen in figure 3 I start by outlining my equation with variables, which I can then plug values into to solve for my desired force. This is where i determined that Ax=0kN, Ay=6.67kN, and By=-6.67kN. I then used these values to solve for the internal force reactions using method of joints. Method of joints is where I start at one joint and analyze it fully, and then move on to the next one. When starting on this method I looked through the joints and figured out which joint would have the least amount of unknown variables. I did this so I could fully analyze the first joint and cause a sort of "chain reaction to solve the rest of the joints.
 
+### Internal Forces
 The joint I decided to start on was B because it only had two unknowns that I could put into two different Fx and Fy equations.
 
 ![Alt text](Pin-B.png)
@@ -49,7 +51,7 @@ After joint B I continued down the line to Joint C.
 ![Alt text](Pin-C.png)
 (Figure 5)
 
-Here I used the force at BC and the equilibrium equations to help find the forces at CD and CE. I specifically had analyze the forces in the y direction first to determine CE. Otherwise I would have been left with two unknown forces at once as seen in Figure 5 with the sum of forces in the x direction. The force at CD ended up being so small that it was practically 0kN; however, that did not mean I could remove that element because it would still assist my truss if it were to have a different load type.
+Here I used the force at BC and the equilibrium equations to help find the forces at CD and CE. I specifically had analyze the forces in the y direction first to determine CE. Otherwise I would have been left with two unknown forces at once as seen in Figure 5 with the sum of forces in the x direction. The force at CD ended up being so small that it was practically 0kN; however, that did not mean I could remove that element because it would still assist my truss if it were to have a different load type. At this joint I found that Force CE=-16.02kN and Force CD=0kN.
 
 After finding the reactions at these two joints I used my reasoning of symmetry that I considered at the start of this assignment. The load(P) on the right side of the truss was acting with the same magnitude as the load(P) on the left but in the opposite direction. This led me to make the logical conclusion that all of the member reactions would be acting with the same magnitudes as their counterparts, but with different directions. That is how I came up with the idea in figure 6.
 
@@ -59,6 +61,15 @@ After finding the reactions at these two joints I used my reasoning of symmetry 
 All of the external pin reactions and the internal member reactions are are summed up below in figure 7.
 
 ![Alt text](Conclusion-forces.png)
+(Figure 7)
+
+### Cross-Sectional Area of Members
+My next task was to find the cross-sectional area of my members and the overall weight of the trusses. I was given that the material was A500 steel and the safety Factor was 3.5. The first thing I did was determine what formulas and principals I would need to use in order to find these things. I knew that I needed my maximum allowed stress in order to find the minimum area of the trusses, which is represented by the formula Stress(max)=Force(max)/Area(min). I then found that I could use yield strength and the safety factor in order to find the maximum allowed stress. Then for weight I needed the density of my trusses, the volume, the total length, and the cross-sectional area of the trusses. 
+
+In order to even start my process I searched for the density and the yield strength of A500 steel. I used these values to begin calculating for max allowed stress, minimum cross-sectional area, and the total weight of the truss system as seen in figure 8.
+
+![Alt text](cross-sectional-area-elements.png)
+(Figure 8)
 
 
 
