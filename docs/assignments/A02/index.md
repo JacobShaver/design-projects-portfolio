@@ -22,7 +22,12 @@ Given all of  this information my first instinct was to sit down and brainstorm 
 ![Alt text](Final-Truss-Sketch.png)
 (Figure 2)
 
-After deliberating and taking into account my parameters I decided on the structure in figure 2. There are a couple reasons as to why I chose to place joint E between A and B, and connect A, B, C, and D to joint E. Starting with my placement of joint E, I chose this spot because it enabled the truss to have symmetry about an axis straight down the middle. I knew from my experience with trusses, that this would allow me to make the most of my time  when calculating the internal forces in each element and when calculating the lengths of each member. I made connections between all of the joints to E because it gave the truss stability To not only handle the load I was given, but also other loads that could potentially effect my design in time. In this step I also went ahead and found the lengths of each member so I could use those in the math that was to come.
+After deliberating and taking into account my parameters I decided on the structure in figure 2. There are a couple reasons as to why I chose to place joint E between A and B, and connect A, B, C, and D to joint E. Starting with my placement of joint E, I chose this spot because it enabled the truss to have symmetry about an axis straight down the middle. I knew from my experience with trusses, that this would allow me to make the most of my time  when calculating the internal forces in each element and when calculating the lengths of each member. I made connections between all of the joints to E because it gave the truss stability To not only handle the load I was given, but also other loads that could potentially effect my design in time. 
+
+Before moving on to finding forces I needed to do a handful of things. The first was to develop a Free Body Diagram that would help me out later down the line, which is seen in figure 2. In this step I also went ahead and found the lengths of each member so I could use those in the math that was to come. 
 
 ## Communicate
 
+Now after outlining all of my knowns, deciding on a structure, and determining some unknowns like force P and the lengths of the members, it was time for me to start solving for the forces present. 
+
+I started by first determining what was happening to the truss externally.
