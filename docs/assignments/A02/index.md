@@ -30,4 +30,35 @@ Before moving on to finding forces I needed to do a handful of things. The first
 
 Now after outlining all of my knowns, deciding on a structure, and determining some unknowns like force P and the lengths of the members, it was time for me to start solving for the forces present. 
 
-I started by first determining what was happening to the truss externally.
+Throughout the entire design process I utilized the formulas for equilibrium, which are the sum of forces equal zero in all directions and sum of moments equal zero. 
+
+![Alt text](External-Forces.png)
+(Figure 3)
+
+As seen in figure 3 I start by outlining my equation with variables, which I can then plug values into to solve for my desired force. This is where i determined that $A_{x}$=0kN, $A_{y}$=6.67kN, and $B_{y}$=-6.67kN. I then used these values to solve for the internal force reactions using method of joints. Method of joints is where I start at one joint and analyze it fully, and then move on to the next one. When starting on this method I looked through the joints and figured out which joint would have the least amount of unknown variables. I did this so I could fully analyze the first joint and cause a sort of "chain reaction to solve the rest of the joints.
+
+The joint I decided to start on was B because it only had two unknowns that I could put into two different $F_{x}$ and $F_{y}$ equations.
+
+![Alt text](Pin-B.png)
+(Figure 4)
+
+As seen in Figure 4, after I wrote out both equations I knew I had to start with sum of $F_{y}$ in order to determine the force along element BC. Once I found that I was able to use it to find the force along element BE. At this pin I found that $F_{BC}$=-11.12kN and $F_{BE}$=8.90kN. 
+
+After joint B I continued down the line to Joint C.
+
+![Alt text](Pin-C.png)
+(Figure 5)
+
+Here I used the force at BC and the equilibrium equations to help find the forces at CD and CE. I specifically had analyze the forces in the y direction first to determine CE. Otherwise I would have been left with two unknown forces at once as seen in Figure 5 with the sum of forces in the x direction. The force at CD ended up being so small that it was practically 0kN; however, that did not mean I could remove that element because it would still assist my truss if it were to have a different load type.
+
+After finding the reactions at these two joints I used my reasoning of symmetry that I considered at the start of this assignment. The load(P) on the right side of the truss was acting with the same magnitude as the load(P) on the left but in the opposite direction. This led me to make the logical conclusion that all of the member reactions would be acting with the same magnitudes as their counterparts, but with different directions. That is how I came up with the idea in figure 6.
+
+![Alt text](Symmetry-application.png)
+(Figure 6)
+
+All of the external pin reactions and the internal member reactions are are summed up below in figure 7.
+
+![Alt text](Conclusion-forces.png)
+
+
+
