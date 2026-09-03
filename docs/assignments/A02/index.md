@@ -124,5 +124,12 @@ After fully finishing the design I made the material for the truss A500 steel an
 This Project taught me that I have to thoroughly think out my choices before making them, and also that getting a project complete takes a lot more planning than I had ever thought. The planning alone took me hours longer than the actual modeling on CREO. I also would have saved myself so much time had I better thought out things like just making the truss elements square versus round.
 
 ### Likelihood of Failure Modes in Truss Components
+The goal of this section is to understand and research the different failure modes for the truss components.
+#### Truss members
+While researching I found that there is a main difference between buckling and yielding. That difference is whether the material is in tension or compression. If the object is in high tension then you will get yielding, which can be described as the object permanently deforming. If the object is in high compression then you will get buckling, which can be described as fast changing of the objects structure. This often seen with long and thin structures. Fracturing can happen in both cases of yielding and buckling; however, it is more determined by how ductile the material is. In my case the material A500 is seen as a more ductile material.
 
+Given that the material of my truss is more ductile, I would imagine that the truss would fail due to yielding and buckling before it ever had the chance to fracture. The truss is designed with a very specific load in thought. This leads me to believe that if the load were to change then it would cause elements to exceed the maximum allowed stress causing that deformation. As shown in Figure 7, my elements that are in tension are more likely to to yield and my elements that are in compression are more likely to buckle. Something I would add to address the buckling of the truss would be to add bracing to the middle of the rods in compression. This would add more stability to the weaker points that are more prone to buckle.
+#### Pin Connections
 
+#### Sources
+https://www.surescreenmaterials.com/failure-mechanisms/buckling-and-yielding
