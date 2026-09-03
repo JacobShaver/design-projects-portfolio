@@ -81,4 +81,48 @@ For this part I was already given the yield shear strength of the pin material a
 ![Alt text](cross-sectional-area-pins.png)
 (Figure 9)
 
+### 3D-Model of the truss
+
+Before I ever opened Creo to 3D-model my truss, I knew I would need values like length of trusses and diameter of the pins. To do this I made a choice to make my trusses square so I could set the minimum cross-sectional area equal to L*L. I used the standard formula for a circle to determine the diameter of each pin. I also added the width of the trusses to the pins diameter, which I did to make a proper housing for the pins that would also connect with each truss. It is important for me to note that I initially tried to make the trusses round rods; however, I shortly realized that was far too difficult and decided to instead chose a square shape. All of my math to determine the Width, Diameter and pin housing diameter can be found in Figure 10.
+
+![Alt text](Math-Needed-for-CAD.png)
+(Figure 10)
+
+It was only after all of this that I began 3D-Modeling my truss.
+
+![Alt text](CAD-1.png)
+(Figure 11)
+
+I started by first setting up a line sketch in order to get the proper length dimensions of each truss element. I then placed reference points at each joint in order to use later.
+
+![Alt text](CAD-2.png)
+(Figure 12)
+
+Using these reference points and the original sketch line as a tangent constraint, I places slanted rectangles and adjusted them to match the length that I found in Figure 10.
+
+![Alt text](CAD-3.png)
+(Figure 13)
+
+Since I assumed the truss elements were square I then extruded the truss elements up the same length that I found in Figure 10.
+
+![Alt text](CAD-4.png)
+(Figure 14)
+
+After finishing the truss elements I moved on to the Joints. I made my joints by using the reference points I placed earlier to make center-line circles at each one. The diameter for this was the pin diameter added to the truss width as found in Figure 10.
+
+![Alt text](CAD-5.png)
+(Figure 15)
+
+My final step was to cut out holes for the pins in the joints. I again used the reference points to make holes with the exact pin diameter I found in Figure 10.
+
+![Alt text](CAD-6.png)
+(Figure 16)
+
+After fully finishing the design I made the material for the truss A500 steel and multiplied the assumed mass of the truss by 9.81. This gave me the predicted weight of 51.72N. This tells me that my calculated weight is far higher than the simulated weight by about 5N-6N.
+
+### Lesson Learned
+This Project taught me that I have to thoroughly think out my choices before making them, and also that getting a project complete takes a lot more planning than I had ever thought. The planning alone took me hours longer than the actual modeling on CREO. I also would have saved myself so much time had I better thought out things like just making the truss elements square versus round.
+
+### Likelihood of Failure Modes in Truss Components
+
 
