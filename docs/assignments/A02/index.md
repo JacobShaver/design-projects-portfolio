@@ -35,14 +35,14 @@ Throughout the entire design process I utilized the formulas for equilibrium, wh
 ![Alt text](External-Forces.png)
 (Figure 3)
 
-As seen in figure 3 I start by outlining my equation with variables, which I can then plug values into to solve for my desired force. This is where i determined that $A_{x}$=0kN, $A_{y}$=6.67kN, and $B_{y}$=-6.67kN. I then used these values to solve for the internal force reactions using method of joints. Method of joints is where I start at one joint and analyze it fully, and then move on to the next one. When starting on this method I looked through the joints and figured out which joint would have the least amount of unknown variables. I did this so I could fully analyze the first joint and cause a sort of "chain reaction to solve the rest of the joints.
+As seen in figure 3 I start by outlining my equation with variables, which I can then plug values into to solve for my desired force. This is where i determined that Ax=0kN, Ay=6.67kN, and By=-6.67kN. I then used these values to solve for the internal force reactions using method of joints. Method of joints is where I start at one joint and analyze it fully, and then move on to the next one. When starting on this method I looked through the joints and figured out which joint would have the least amount of unknown variables. I did this so I could fully analyze the first joint and cause a sort of "chain reaction to solve the rest of the joints.
 
-The joint I decided to start on was B because it only had two unknowns that I could put into two different $F_{x}$ and $F_{y}$ equations.
+The joint I decided to start on was B because it only had two unknowns that I could put into two different Fx and Fy equations.
 
 ![Alt text](Pin-B.png)
 (Figure 4)
 
-As seen in Figure 4, after I wrote out both equations I knew I had to start with sum of $F_{y}$ in order to determine the force along element BC. Once I found that I was able to use it to find the force along element BE. At this pin I found that $F_{BC}$=-11.12kN and $F_{BE}$=8.90kN. 
+As seen in Figure 4, after I wrote out both equations I knew I had to start with sum of Fy in order to determine the force along element BC. Once I found that I was able to use it to find the force along element BE. At this pin I found that Force BC=-11.12kN and Force BE=8.90kN. 
 
 After joint B I continued down the line to Joint C.
 
