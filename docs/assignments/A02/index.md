@@ -130,6 +130,6 @@ While researching I found that there is a main difference between buckling and y
 
 Given that the material of my truss is more ductile, I would imagine that the truss would fail due to yielding and buckling before it ever had the chance to fracture. The truss is designed with a very specific load in thought. This leads me to believe that if the load were to change then it would cause elements to exceed the maximum allowed stress causing that deformation. As shown in Figure 7, my elements that are in tension are more likely to to yield and my elements that are in compression are more likely to buckle. Something I would add to address the buckling of the truss would be to add bracing to the middle of the rods in compression. This would add more stability to the weaker points that are more prone to buckle.
 #### Pin Connections
-
+At the current load type I would say it is unlikely that the pins would have any shear failure at all. To determine this I used the maximum force acting on a pin at 16.02kN. When you convert this value to Kips and divide the force by the cross-sectional area of the pin you get 34.05ksi. The pins are designed to withhold a maximum of 42.5ksi. This giant disparage in values leads me to believe that the pins would never actually fail. What is more likely is that the truss section about the pins are going to deform over time. If the load were changed greatly, then I could see the pins fracturing due to the shear stress.
 #### Sources
 https://www.surescreenmaterials.com/failure-mechanisms/buckling-and-yielding
