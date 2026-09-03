@@ -64,12 +64,21 @@ All of the external pin reactions and the internal member reactions are are summ
 (Figure 7)
 
 ### Cross-Sectional Area of Members
-My next task was to find the cross-sectional area of my members and the overall weight of the trusses. I was given that the material was A500 steel and the safety Factor was 3.5. The first thing I did was determine what formulas and principals I would need to use in order to find these things. I knew that I needed my maximum allowed stress in order to find the minimum area of the trusses, which is represented by the formula Stress(max)=Force(max)/Area(min). I then found that I could use yield strength and the safety factor in order to find the maximum allowed stress. Then for weight I needed the density of my trusses, the volume, the total length, and the cross-sectional area of the trusses. 
+My next task was to find the cross-sectional area of my members and the overall weight of the trusses. 
 
-In order to even start my process I searched for the density and the yield strength of A500 steel. I used these values to begin calculating for max allowed stress, minimum cross-sectional area, and the total weight of the truss system as seen in figure 8.
+I was given that the material was A500 steel and the safety Factor was 3.5. The first thing I did was determine what formulas and principals I would need to use in order to find these things. I knew that I needed my maximum allowed stress in order to find the minimum area of the trusses, which is represented by the formula Stress(max)=Force(max)/Area(min). I then found that I could use yield strength and the safety factor in order to find the maximum allowed stress. Then for weight I needed the density of my trusses, the volume, the total length, and the cross-sectional area of the trusses. My maximum force was determined by the largest internal force found at 16.02kN.
+
+In order to even start my process I searched for the density and the yield strength of A500 steel. I used these values to begin calculating for max allowed stress, minimum cross-sectional area, and the total weight of the truss system as seen in figure 8. I made my trusses a square shape in order to simplify the 3D modeling process later on.
 
 ![Alt text](cross-sectional-area-elements.png)
 (Figure 8)
 
+### Cross-Sectional Area of pins
+After finding the cross-sectional area and weight of my members, I moved on to finding the same for my pins. 
+
+For this part I was already given the yield shear strength of the pin material and the density of the material. To make the values of my areas consistent I converted the yield shear strength from Kips to MPa, which I did to keep all my dimensional values in meters. Knowing that I was finding the same things I did for the elements, I applied the same equations as seen in figure 9.
+
+![Alt text](cross-sectional-area-pins.png)
+(Figure 9)
 
 
