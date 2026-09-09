@@ -40,3 +40,19 @@ After finalizing the sketch I then extruded it. I set the length of the extrusio
 
 ![Alt text](Extrusion.png)
 (Figure 4)
+
+### Finite Element Analysis of the Bar
+After designing the bar in CAD I had to conduct an FEA of the bar with the same load used to determine its geometry. 
+#### Step One
+Before I ran the simulation to find a deflection map and stress map, I needed to apply the force to one side of the bar and fix the other side to a "wall". After setting those points, I created a mesh over the bar for a static analysis to begin.
+#### Step Two
+The last step was to click run to generate a deflection map and a von Mises Stress map.
+
+##### von Mises Stress map:
+![Alt text](Stress.png)
+(Figure 5)
+
+As seen in figure 5, the maximum stress was .5593 ksi which is lower than the actual yield strength of aluminum at 40 ksi. By dividing the yield stress by the maximum stress, I determined the Safety factor to be about 71.52.
+##### deflection map:
+![Alt text](Deflection.png)
+(Figure 6)
