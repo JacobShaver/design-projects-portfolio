@@ -33,7 +33,7 @@ Next I needed to find feature 2's thickness, which is the leg that will be attac
 ### Isometric Drawing
 After finalizing all of my values for the design I made a detailed isometric sketch for the final Motor Mount. This can be seen below in figure 5.
 
-![Alt Text](Screenshot_20260916-161423.png)
+![Alt Text](Screenshot_20260916-161530.png)
 (Figure 5)
 
 ### 3D CAD Model
