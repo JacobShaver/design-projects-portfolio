@@ -1,4 +1,4 @@
-# A4 – [Topic]
+# A4 – Motor Mount
 
 ## Objective
 For this assignment I was told to design a mount for a designated motor. In order to design the motor mount I had to design for deflection and for stress to find the minimum thickness of each feature.
@@ -36,6 +36,31 @@ After finalizing all of my values for the design I made a detailed isometric ske
 ![Alt Text](Screenshot_20260916-161530.png)
 (Figure 5)
 
-### 3D CAD Model
+### 3D CAD Parametric Model
+
+To start off my design I made a sketch for Feature 1 at 36mmx34mm and then extruded that rectangle up to the thickness found earlier. In order to make feature 2, I started a sketch at the edge of the surface on feature 1. The sketch I made was a rectangle that had the same base length as feature 1 and the thickness found earlier for feature 2. I then extruded this sketch to the designated 32mm.
+
+Before I made the feature for the mount to attach to the motor and wall, I first needed to set up this design parametrically. As seen in the two figures below I assigned my variable as global parameters, and then set up else if statements. Each statement assigned the two limiting equations from my calculations to a variable, compared the two, and set the thickness to be which ever equation got the higher value. Each relation was set to automatically change the thickness whenever I shifted the known variables around. This would enable me to change values in CAD and make automatic adjustments rather than going through and recalculating each value by hand.
+
+![Alt Text](PARAMETRIC1.png)
+![Alt Text](PARAMETRIC2.png)
+(Figure 6 & 7)
+
+Once the parametric design was set up I added the features to fix the mount to the wall and the motor. This included 4 equal diameter holes to attach the mount to the wall, and a divot with bolt holes to allow the motor to slot in and attach to the motor mount. This information was given to me by the professor, where the holes needed a 3.4mm clearance and the motor dimensions were given to me by the sketch in figure 2.
+
+Below is how my final design came out. 
+
+![Alt Text](CAD.png)
+(Figure 8)
+
+### CAD Drawing
+After finishing my design I was tasked with creating a multiview drawing with a isometric, top, front, and side view. I applied ASME standard conventions for the drawing. Below in Figure 9 is my final drawing. 
+
+![Alt Text](CADDRAWING.png)
+(Figure 8)
+
+### References 
+
+### Important Files
 
 
