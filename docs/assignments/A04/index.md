@@ -12,16 +12,30 @@ After Taking all of the assignment info in, I began brainstorming for what my di
 ![Alt Text](Screenshot_20260916-161423.png)
 (Figure 1)
 
-This is when I made a very general sketch of what I wanted the motor mount to look like. As seen in figure 1 I decided to make the length of feature one to include the intersection of the two legs, while feature two had a length separated from the intersection. I decided to choose these values after I had a final model of the equations I was using to minimize the thickness. 
+This is when I made a very general sketch of what I wanted the motor mount to look like. As seen in figure 1 I decided to make the length of feature one to include the intersection of the two legs, while feature two had a length separated from the intersection. I decided to choose these values after I had a final model of the equations I was using to minimize the thickness. When I was deciding on the values for my lengths, I took the dimensions of the motor mount as seen in figure 2 into account to properly fit the motor onto feature 1. I also chose to use ABS as my material for the motor mount.
+
+![Alt Text](Screenshot_20260916-161423.png)
+(Figure 2)
+
 ## Communicate
 ### Feature 1 
 ![Alt Text](Screenshot_20260916-161447.png)
-(Firgure 2)
+(Firgure 3)
 
-To start off my design of feature 1, I listed all of my known variables. The results in figure 2 show the final values for each variable; however I did not decide on my length values until I saw how they would affect the thickness equations when accounting for stress and deflection. I then drew out my free body diagram to show what was happening to the leg. After all of the setup, I began setting up my equations for stress and deflection and then rearranged the equations as variables in order to solve for thickness. After looking at both of my equations solved symbolically I decided to make the length 36mm and the base length 34mm. My equation that accounted for deflection had a higher minimum thickness, which made that my final value for the design.
+Feature 1 was the leg that is to be attached to the motor. To start off my design of feature 1, I listed all of my known variables. The results in figure 3 show the final values for each variable; however I did not decide on my length values until I saw how they would affect the thickness equations when accounting for stress and deflection. I used an online chart to determine the maximum stress and the Young's Modulus value. I then drew out my free body diagram to show what was happening to the leg. After all of the setup, I began setting up my equations for stress and deflection and then rearranged the equations as variables in order to solve for thickness. After looking at both of my equations solved symbolically I decided to make the length 36mm and the base length 34mm. The equation that accounted for deflection had a higher minimum thickness, which made that my final value for the design.
 
 ### Feature 2 
-![Alt Text](Screenshot_20260916-161447.png)
+![Alt Text](Screenshot_20260916-161518.png)
+(Figure 4)
 
+Next I needed to find feature 2's thickness, which is the leg that will be attached to the wall. For this Feature I had all of the same values except for the length of the bar. I made a new free body diagram for this feature and then began modeling my equations. I modeled the equations in the same manner as feature 1; however, once I got to the final equations I then estimated what I needed the length to be. I assigned length to be 32mm and solved each equation for thickness. Just like feature 1, the deflection equation ended up having the higher value for thickness, which told me that it had to be my final thickness for feature 2.
+
+### Isometric Drawing
+After finalizing all of my values for the design I made a detailed isometric sketch for the final Motor Mount. This can be seen below in figure 5.
+
+![Alt Text](Screenshot_20260916-161423.png)
+(Figure 1)
+
+### 3D CAD Model
 
 
