@@ -60,7 +60,8 @@ After finishing my design I was tasked with creating a multiview drawing with a 
 (Figure 8)
 
 ### References 
+https://www.specialchem.com/plastics/guide/acrylonitrile-butadiene-styrene-abs-plastic
 
+https://www.omc-stepperonline.com/brushed-24v-dc-gear-motor-3-6kg-cm-46rpm-w-99-5-1-planetary-gearbox-pa28-28245800-g100
 ### Important Files
-
-
+[Zip file for Multiview Drawing and 3D Model](uncc_asize.frm.zip)
