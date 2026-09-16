@@ -14,7 +14,7 @@ After Taking all of the assignment info in, I began brainstorming for what my di
 
 This is when I made a very general sketch of what I wanted the motor mount to look like. As seen in figure 1 I decided to make the length of feature one to include the intersection of the two legs, while feature two had a length separated from the intersection. I decided to choose these values after I had a final model of the equations I was using to minimize the thickness. When I was deciding on the values for my lengths, I took the dimensions of the motor mount as seen in figure 2 into account to properly fit the motor onto feature 1. I also chose to use ABS as my material for the motor mount.
 
-![Alt Text](Screenshot_20260916-161423.png)
+![Alt Text](Motor_drawing.png)
 (Figure 2)
 
 ## Communicate
@@ -34,7 +34,7 @@ Next I needed to find feature 2's thickness, which is the leg that will be attac
 After finalizing all of my values for the design I made a detailed isometric sketch for the final Motor Mount. This can be seen below in figure 5.
 
 ![Alt Text](Screenshot_20260916-161423.png)
-(Figure 1)
+(Figure 5)
 
 ### 3D CAD Model
 
