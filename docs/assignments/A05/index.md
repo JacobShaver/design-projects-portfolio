@@ -44,18 +44,41 @@ After Completing my analysis for strain I moved on to solve for the same values 
 For figure 4, blue highlights symbolic solutions for values, and green highlights final values to be used.
 
 ![Error](Stiffness.png)
+(Figure 4)
 
 ### Multiview drawings for both Stress and Stiffness Analysis
 These sketches were done on engineering paper where one grid square was seen as 1/2 in.
 
 ![Error]()
+(Figure 5)
 
 ![Error]()
+(Figure 6)
 
 ### Lessons learned
 
 ### Link design
-After designing my bracket 
+After designing my bracket I was tasked with designing a linkage that linked Feature A to i 1 in diameter shaft. I was told to assume that the linkage needed to support the same amount of force as the bracket, and that each analysis was to be based on the smallest cross sectional area at the holes. I also assumed that the length from the holes to the sides of the link were equal to the length on all sides of the length. 
+
+After making all those assumptions I needed to design the linkages dimensions using stress and then stiffness equations, as seen in Figure 7. Between the two analysis my stress analysis ended up with high values, making that my governing dimensions for the link.
+
+![Error](Link.png)
+(Figure 7)
+
+#### Hole Fits
+The last part of this assignment was to determine the proper fits of the linkage holes. Per the assignment I was given that the hole at Feature A needed a running/sliding fit, and the hole at the shaft needed to be designed with light assembly pressure. For this I utilized the Machinery Handbook 32nd Edition, and any page numbers listed relate to this book.
+
+![Error](Tol.png)
+
+##### Hole at Feature A
+Starting with this hole I took into account that I needed a running/sliding fit and knew that the RC class was that fit type. I figured that in order to reduce the cost you would want a less precise method of RC or a looser fit, so I chose to use RC 8 from the table on page 655. After Classifying the fit type RC 8, I used Table 6 on page 674 to find the IT grade. After finding my IT grade I determined that Reaming would be the best in the middle option for the IT grade Using the table in Figure 8.
+##### Hole at Shaft
+After finding the hole at Feature A I needed to find the fit type for the hole at the 1 in diameter shaft. The description for this hole said it must be designed using light assembly pressure. On page 652 I found that the best classification was FN 1 because it is a light drive fit that requires light assembly pressure. Following the steps from the first hole I used the chart on page 661 to find what my standard limits were. I went from there, back to Table 6 page 674 to determine the IT value for the process. Using the table in figure 8, The IT led me to choose the reaming process because the IT value landed in that procedure and it was the best middle ground for precision to price. 
+
+
+
+
+
 
 
 
