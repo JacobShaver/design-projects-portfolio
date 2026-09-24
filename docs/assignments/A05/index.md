@@ -49,10 +49,10 @@ For figure 4, blue highlights symbolic solutions for values, and green highlight
 ### Multiview drawings for both Stress and Stiffness Analysis
 These sketches were done on engineering paper where one grid square was seen as 1/2 in.
 
-![Error]()
+![Error](IMG_3583.jpeg)
 (Figure 5)
 
-![Error]()
+![Error](IMG_3584.jpeg)
 (Figure 6)
 
 ### Lessons learned
