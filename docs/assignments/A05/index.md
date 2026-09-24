@@ -56,6 +56,12 @@ These sketches were done on engineering paper where one grid square was seen as 
 (Figure 6)
 
 ### Lessons learned
+#### Governing Failure Mode
+One feature that had a large disparity between Stress and stiffness analysis was Feature A. For this feature, stiffness governed the diameter by about .320 in, where stress had .674 in and stiffness had .994 in. The difference wasn't very close, which seemed to be true for a lot of the features. Whether stiffness or stress governed the value found, the disparity between the values tended to have a gap of .100 in at the very least and 1.75 at the greatest.
+#### Error Propagation
+With the way I set up my design process, the thickness of feature B transferred through all of my features C-E. At one point I got down to feature D and realized something wasn't right when my values started to feel kind of wonky and unbalanced. After realizing that, I started again from the top and followed my work down plugging back in values and checking my formulas. This is where I realized that I miss inputted in my calculator and got an incorrect value for thickness of feature B. This was the mishap that cause a downward spiral, and after fixing it my numbers came out much better and more balanced. 
+#### Assumption Sensitvity
+One Assumption I made was that the material was Aluminum 6160 T6. If that were a different assumption then my values of modulus of elasticity and yield stress would completely change. This change would swap the values at each feature for both analysis, because for stress the yield stress is present in each features formula and for stiffness the modulus is present in each features formula. 
 
 ### Link design
 After designing my bracket I was tasked with designing a linkage that linked Feature A to i 1 in diameter shaft. I was told to assume that the linkage needed to support the same amount of force as the bracket, and that each analysis was to be based on the smallest cross sectional area at the holes. I also assumed that the length from the holes to the sides of the link were equal to the length on all sides of the length. 
