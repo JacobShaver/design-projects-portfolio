@@ -11,7 +11,47 @@ Before I ever started to preform a FEA on any part, I first needed to understand
 (Figure 1)
 
 ## Decide
+### Bracket FEA / Design changes
 
+![error](b_design1.png)
+(Figure 2)
+
+![error](b_design2.png)
+(Figure 3)
+
+![error](b_design3.png)
+(Figure 4)
+
+![error](b_inner_table.png)
+(Figure 5)
+
+### Link FEA / Design changes
+
+![error](l_design1.png)
+(Figure 6)
+
+![error](l_design2.png)
+(Figure 7)
+
+![error](l_design3.png)
+(Figure 8)
+
+![error](b_inner_table.png)
+(Figure 9)
 
 ## Communicate
+### Final Bracket Results
 
+![error](b_outer_table.png)
+
+### Final Link Results
+
+![error](l_outer_table.png)
+
+### Reflection
+
+
+
+### Download Final Designs
+[error](bracket_final.SLDPRT)
+[error](link_final.SLDPRT)
