@@ -32,7 +32,7 @@ After the results from the second FEA, I made three major changes as seen in Fig
 ![error](b_inner_table.png)
 (Figure 5)
 
-The above tables show a summarized version of my FEA "inner loop" and which values converge or don't. 
+The above tables show a summarized version of my FEA "inner loop" and which values converge or don't for my bracket. 
 
 ### Link FEA / Design changes
 Once I completed the FEA design process for my bracket i did the same for my link.
@@ -54,6 +54,8 @@ After getting the results from the second FEA I made a similar change. I increas
 
 ![error](l_inner_table.png)
 (Figure 9)
+
+The above tables show a summarized version of my FEA "inner loop" and which values converge or don't for my link. 
 
 ## Communicate
 ### Final Bracket Results
