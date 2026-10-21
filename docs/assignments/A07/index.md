@@ -35,17 +35,24 @@ After the results from the second FEA, I made three major changes as seen in Fig
 The above tables show a summarized version of my FEA "inner loop" and which values converge or don't. 
 
 ### Link FEA / Design changes
+Once I completed the FEA design process for my bracket i did the same for my link.
 
 ![error](l_design1.png)
 (Figure 6)
 
+The first analysis used the link as designed in A06. My fixtures for the FEA were set to be the inner faces of each hole, and the force was concentrated at the bottom of the link. The first set of results were excellent because all of my values were well within my original parameters. However, after completing a course and medium mesh the displacement values did not converge while the safety factor and max stress did. So, I had to use a fine mesh to determine what my final values would be. The results were a max stress of about 4050psi located at the bottom edges where the straight side moves into an arch(red area), a max deflection of 0.00037in located at the bottom of the link on either side(red area), a safety factor of 9.8, a weight of 0.14lbs, and the top of the link was almost completely unaffected.
+
 ![error](l_design2.png)
 (Figure 7)
+
+After the results from the first FEA I made one change. I decided to increase the thickness of the link to 0.25in, which I did to add more surface area to make it more sturdy. I then began the FEA with a course and medium mesh and the values for each ended up converging, so I used the highest value from between them as my final. The results were a max stress of about 1290psi located at the bottom edges where the straight side moves into an arch(red area), a max deflection of 0.00015in located at the bottom of the link on either side(red area), a safety factor of 32, a weight of 0.35lbs, and the top of the link was almost completely unaffected.
 
 ![error](l_design3.png)
 (Figure 8)
 
-![error](b_inner_table.png)
+After getting the results from the second FEA I made a similar change. I increased the thickness again to 0.50in, which I did to add even more surface area to the link. I again began the FEA with a course and medium mesh, which converged again so I used the highest values from each study. The results were a max stress of about 681psi located at the bottom edges where the straight side moves into an arch(red area), a max deflection of 0.000074in located at the bottom of the link on either side(red area), a safety factor of 59, a weight of 0.70lbs, and the top of the link was almost completely unaffected. 
+
+![error](l_inner_table.png)
 (Figure 9)
 
 ## Communicate
