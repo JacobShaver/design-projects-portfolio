@@ -61,14 +61,20 @@ The above tables show a summarized version of my FEA "inner loop" and which valu
 ### Final Bracket Results
 
 ![error](b_outer_table.png)
+(Figure 10)
+
+The table in figure 10 is a summary of my results after each FEA and design change for the bracket. I went through three different iterations of my bracket including the original design, and by the end I was left with results I'm happy with. My deflection was below the max of 0.005in and the max stress was well below the yield strength of aluminum.
 
 ### Final Link Results
 
 ![error](l_outer_table.png)
+(Figure 11)
+
+The table in figure 11 is a summary of my results after each FEA and design change for the link. I went through three different iterations of my bracket including the original design. By the end of the process I would be happy with either the 3rd or 2nd design, because both gave desirable results when compared to my parameters and converged. If i wanted to ensure lighter weight at expense of a slightly less strong and stiff product then design 2 would be ideal. If I wanted to ensure even more strength and stiffness at the expense of more weight then design 3 would be ideal.
 
 ### Reflection
 
-
+Throughout this assignment I learned 3 major lessons. The first is that it is important to simulate your designs and complete FEA because you may have messed up in calculations, or the real world would affect your design differently than you might expect. The second is that meshes from course to fine have different levels of accuracy, and the fine meshes take longer to simulate than the course meshes. The third is how taking away or adding geometry can greatly affect the strength and stiffness of your design.
 
 ### Download Final Designs
 [Final Bracket Design](bracket_final.SLDPRT)
