@@ -76,6 +76,8 @@ The table in figure 11 is a summary of my results after each FEA and design chan
 
 Throughout this assignment I learned 3 major lessons. The first is that it is important to simulate your designs and complete FEA because you may have messed up in calculations, or the real world would affect your design differently than you might expect. The second is that meshes from course to fine have different levels of accuracy, and the fine meshes take longer to simulate than the course meshes. The third is how taking away or adding geometry can greatly affect the strength and stiffness of your design.
 
+This assignment took me about 7 hours to complete.
+
 ### Download Final Designs
 [Final Bracket Design](bracket_final.SLDPRT)
 
