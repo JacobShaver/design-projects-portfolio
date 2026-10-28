@@ -107,7 +107,7 @@ The final part for my assignment was to make engineering drawings for all parts 
 (Bottom of Gear Housing)
 
 ![](gearhousetop.png)
-(Top oh Gear housing)
+(Top of Gear housing)
 
 ![](finalassem.png)
 (Final Assembly)
