@@ -35,6 +35,8 @@ I decided to utilize two bearings on either side of the gears, so each gear wasn
 
 ## Communicate
 ### Imported CAD files from Mcmaster
+The next 4 images are just isometric images for each CAD file I got off of McMastery-Carr. These are the same ones that I found earlier in the assignment and are the only ones I use in the design of the gearbox housing.
+
 ![](pinioniso.png)
 
 ![](geariso.png)
@@ -44,23 +46,41 @@ I decided to utilize two bearings on either side of the gears, so each gear wasn
 ![](gearbeariso.png)
 ### Designed parts in CAD
 #### Shafts
+Before I 3D modeled my housing unit, I first went ahead and designed each shaft because they are short and simple. Both were made the exact same way, where I sketched the diameters of the shafts, the input and output at 0.125in and 0.250in respectively, and then extruded them out by an inch. These can be seen in isometric view in the next two images below.
+
 ![](pinionshiso.png)
 
 ![](gearshiso.png)
 #### Gear Housing 
+After I had imported each CAD file and designed both shafts, it was finally time to begin designing the gearbox housing starting with the bottom half. 
+
 ![](gearhouse1.png)
+
+I Started by extruding a big box with the dimensions of 0.30in plus the minimum dimensions of the cavity needed. I did this so I could obtain the desired thickness that I listed in my concept sketch of 0.15in on all sides.  
 
 ![](gearhouse2.png)
 
+After generating this box I then made a sketch of a rectangle at the middle of the box on the top. I gave this rectangle the dimensions of my minimum needed cavity dimensions, and extruded it down so that I had the needed space to hold the gears. 
+
 ![](gearhouse3.png)
+
+After making this hollow holding space, I needed to make the divots for the gears to slot into. I made these holes by putting a circle sketch at the top half of the box and extrude cutting it all the way through. The diameters of these sketches were equal to the bearings outer diameters because that's where each would sit. To place the holes, I used the thickness of the left side + the outer radius of the gear + a desired space between the gear and wall of 0.020in. The pinion shaft hole was place by basing it where the gear shaft hole was. I determined this value by adding the gear and pinions pitch radius. This was the final step for the general shape of my housing bottom half.
 
 ![](gearhouse4.png)
 
+The next step was to make the slots for which the snaps of the top half would hook into place. I did this by extruding a very small box on the side of the housing and cutting a hole into it so that it was hollow.
+
 ![](gearhouse5.png)
 
+To ensure that this slot feature was on either side, I utilized a reference plane to mirror the geometry to the other side of the housing. This was the final design for the bottom half of my gearbox housing. 
+
 ![](gearhouse6.png)
+
+Rather than starting from scratch on the top half, I made a copy of the bottom half and only changed the slots into hooks. I did this by extruding that almost had the same geometry as the hollow section of the slots, except it was slightly thinner to allow the hook to actually grab the edge of the slot. After doing this I did the same mirroring strategy to ensure there was hooks on either side.
 #### Assembly for gearbox
 ![](assemiso.png)
+
+After making All my Cad
 
 ![](assemexploded.png)
 
