@@ -80,26 +80,41 @@ Rather than starting from scratch on the top half, I made a copy of the bottom h
 #### Assembly for gearbox
 ![](assemiso.png)
 
-After making All my Cad
+After making All my CAD design separately, I was tasked with putting them all together in a cohesive assembly. I had previous experience assembling basic designs from old classes; however, I had never worked with gears in a CAD software. In order to figure out how I could get the gears to rotate properly I used the following video:
+
+How to Mate Gears in SolidWorks: https://www.youtube.com/watch?v=ErnvSU8775g
+
+Once I figured out how to mate the two gears the rest was just like normal from there. Using various coincident and concentric mates I came up with the final assembly in the image above. The image below shows an exploded view of each separate part and how they mesh together. 
 
 ![](assemexploded.png)
 
 ### Drawings for Each Part
+The final part for my assignment was to make engineering drawings for all parts made except for the provided gears. All the drawing are labeled below:
+
 ![](pinionshaft.png)
+(Pinion Shaft)
 
 ![](gearshaft.png)
+(Gear Shaft)
 
 ![](pinionbearing.png)
+(Pinion Bearing)
 
 ![](gearbearing.png)
+(Gear Bearing)
 
 ![](gearhousebot.png)
+(Bottom of Gear Housing)
 
 ![](gearhousetop.png)
+(Top oh Gear housing)
 
 ![](finalassem.png)
+(Final Assembly)
 
 ### Lessons Learned
+
+This assignment was definitely a challenge for me, which made way for a plenty of new lessons to learn. The first major lesson I can think of is using SolidWorks to make an assembly, because it was new territory in relation to doing that with this software at all and it was my first time assembling gears. All of the mates were tricky at the start but got way easier for me as the assignment went on. The next lesson that I learned was different ways to fix geometry's together. On this assignment I decided to use a snap fit because it was something I had never designed before. This assignment also showed me how calculations of ideal values can be pretty far off what you can get from suppliers, as my calculated thickness was leagues lower than I could find on the McMastery website. This assignment probably took me roughly 12 hours to complete in totality, because I messed up in the assembly prices a bit in the start causing me to restart it a few times.
 
 ### Zip Files for All Parts/Drawings/Assembly
 [A8 Part Files](A8partfiles.zip)
