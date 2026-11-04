@@ -39,5 +39,17 @@ After designing my shaft I then began to work on the bearing size, and material 
 
 ![error](part3.png)
 
-After finding those values I cross referenced them to the same chart I used in assignment 8, and I determined that my material should be a pourous bronze. I came to choose this material because it seemed to be the most accesible, and it had the most size choices while still fitting the calculated PV limit.
+After finding those values I cross referenced them to the same chart I used in assignment 8, and I determined that my material should be a porous bronze. I came to choose this material because it seemed to be the most accessible, and it had the most size choices while still fitting the calculated PV limit. I then chose the appropriate bearing size using McMaster, making sure that I used 841 bronze. The inner diameter I settled on was 3/16" which I also chose to make the shaft diameter, so they would press fit together. This value was still higher than the minimum shaft diameter I determined earlier so I am assuming that all sizes will meet my requirements. 
+
+Journal Bearing Link: https://www.mcmaster.com/6391K122/
+
+### Pulley Frame Design
+The last part of this assignment instructed me to use engineering analysis to design a pulley frame. I decided to make my pulley frame out of aluminum because I figured that the frame didn't need to be as stiff as a part like the shaft. My design is essentially a box with a height of 2 inches, a width that can hold both holes for the bearings, and a thickness that's equal to the bearing thickness. I made the height 2 inches because it would be very easy to line up the bearing holes right in the middle of the plate. The way that I designed the plate made it so that width could be any value, as long as it properly fit both holes. This could leave leeway for changes if the center distance between the holes ever changed. The size of the holes are to be close to the size of the bearings outer diameter. The thickness is to be the total length of the bearings. To ensure that my design was within my safety factor of three, I decided to complete a deflection analysis of the frame. The following work below shows that my minimum thickness is well below the 1/4" that I decided on.
+
+![error](part4.png)
+
+### Lessons Learned
+The biggest lesson I learned is how all of the previous analysis that I worked on individually can all come together in one full design. This assignment had me design multiple different parts that each needed a very distinct analysis. It was fun to do this and see it all come together to make a cohherent pulley system at the end. 
+
+Another lesson I learned was how standard manufacturing can dictate sizes of parts. While I was going through it was clear that the found values weren't realistic because it would cost so much more to make those custom parts for this one pulley. However, if you cross reference your found values with standard ones then you can chose very nice and mass produced parts that still meet your requirements. 
 
