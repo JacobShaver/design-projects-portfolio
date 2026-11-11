@@ -117,5 +117,11 @@ After Landon had optimized the crosshead through FEA, I worked on the drawing fo
 
 ## Lessons Learned - Team Thoughts
 
+### Jacob
+While completing this assignment, one of the most important lessons I learned was time management and getting my sections done in time so Landon could use that information to do his section. This was true on Landon’s part too, because without his work on the lead screws and flange nut I would have never been able to complete the design of the crosshead. Another lesson I learned was using suppliers to find the standardized pieces that meshed with my calculated information. It made the process of 3D modeling the tensile tester, because all of the parts aside from the crosshead were CAD files that could be downloaded and used. Even though I didn't learn anything new when designing the crosshead, I did learn how to utilize the bending stress equation to verify that the internal threads of the flange nut would suffice for the load applied. I think I spent around 9 hours on my portion of this assignment.  
+### Landon
+In this assignment I think my biggest lesson learned was time management. It wasn't super difficult since my teammate was also my friend, but I found it really important to wake up early and get ahead on the work so I could be ready to pass it off to Jacob. I did as much as I could to provide explanations on what I did so far, what I expected him to do, and what I have for him to look at. Since we have a lot of classes together, we were able to conduct our business meetings throughout the week and discuss where we are and where were going. It was a super in depth project that took a lot of thinking and researching to understand what to do. The previous assignments definitely prepared me to dig deep through the concepts so it wasn't as stressful to do as before. I was decently unfamiliar with the concepts behind threads before this assignment and feel more comfortable with them now. Lastly, my favorite part of this assignment was working with Jacob to put it all together in the assembly and being on a call working through issues we were coming across in CAD. Not the most fun assignment but pretty fulfilling. Overall I think it was about 10 hours total spent on my portion of this assignment.  
+
 ## Download our CAD Files
+
 
