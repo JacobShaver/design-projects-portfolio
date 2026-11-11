@@ -124,4 +124,9 @@ In this assignment I think my biggest lesson learned was time management. It was
 
 ## Download our CAD Files
 
+[Download our team document](LeadScrewAssignment.pdf)
+
+[Download our Assembly](tensile_tester_v2.asm.zip)
+
+[Download our Drawing](crosshead_final.drw.zip)
 
