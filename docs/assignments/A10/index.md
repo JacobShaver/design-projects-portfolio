@@ -19,8 +19,28 @@ Lastly I needed to be able to show how the load applied can be achieved with a g
 PICTURE 4, LEAD SCREW WORK PART 3  
 
 ## Flange Nut Strength Verification - Jacob Shaver
+Once Landon finished the calculations to find the lead screw and flange nut, I needed to verify that the internal threads would support the load. To do this I used bending stress analysis and the equation associated with it in my class lecture notes. In order to verify the flange nut i needed to first find the bending stress using this analysis, and then compare it to its yield strength of 350MPa. This comparison would give me the safety factor of the flange nut, and as long as it was greater than the intend safety factor of 4 then the part would be verified. I used the information under the flange nut's McMaster listing to find the different constants I didn't know. As seen below I determined all of my constants like minor diameter or number of engaged threads and used them to find the internal thread bending stress to be 15.03MPa. I took the ratio of yield strength and bending stress to find the safety factor to be 23. This value was well above the needed factor of safety which verified that the flange nut would work for our design.
+
+PICTURE 1, FLANGE NUT VERIFICATION WORK
 
 ## Crosshead Design - Jacob Shaver
+After verifying the flange nut it was my task to design the crosshead. I needed to complete a strength and stiffness analysis to determine the minimum thickness of my cross head, and then make a detailed Multiview sketch of the final design concept. Some things I determined before I started include, what frame I would use, what the center distance between the two lead screws needed to be, and the clearance needed from the center of a lead screw to the edge of the crosshead. I used a example of a tensile tester given in the assignment to determine what kind of frame I wanted to use, which ended up being the 80mm X 40mm listed in the cost table. To determine all initial dimensions I somewhat guessed and checked using the example provided to me. Both analysis were to be done as if the cross head were a simple beam with to supports at either end.
+
+### Strength Analysis
+After figuring out what my dimensions needed to be, I began working on the strength analysis to determine thickness first. In order to simplify the inertia calculation, I decided to make the cross head a solid bar with the same material as the frame. As seen below I used all my determined values and the yield strength of aluminum found with MatWeb to solve for thickness of the bar. The minimum thickness under the strength analysis came out to 13.2mm. 
+
+PICTURE 1, STRENGTH ANALYSIS WORK
+
+### Stiffness Analysis
+After optimizing the thickness for strength I need to do the same for stiffness. I used all the same values, except for a given max deflection of 0.1mm and the section modulus of 68GPa. As seen below, I used the deflection equation for a simple beam and rearranged it so that I could find the thickness of the beam. After calculations I found the minimum thickness to be 30.9mm.
+
+PICTURE 2, STIFFNESS ANALYSIS WORK
+
+### Final Design Concept
+After completing both analysis, I found that the stiffness ended up determining the minimum thickness. Before I moved on to make a detailed drawing I made a note to treat the thickness as 32mm because its still greater than the minimum and it would add ease of manufacturing. Below is my finalized concept sketch for the crossbody and the notes that I took into account when designing it. I treated each hole as a clearance hole because the flange nut should control where the crosshead is on the lead screws, and the flange nut is to be fastened to the cross head by a nut and bolt.
+
+PICTURE 3, DESIGN NOTES
+PICTURE 4, MULTIVIEW DRAWING
 
 ## Cost Tabulation - Landon Toepfer
 Part of this assignment was counting the total price needed to fully assemble this if need be. This including giving each type of part needed a number, a quantity, a name, a unit price, a total price spent on it, and providing a purchase link. We ended up having 8 total part types. Our combined total landed on 400.41. The crosshead itself did not have a cost because it was not going to be purchased from a supplier so the price was to be determined.  
@@ -37,6 +57,27 @@ Part of this assignment was counting the total price needed to fully assemble th
 | 8 | 8 | Bracket Assembly Screw | 21.56 (Pack of 15) | 21.56 | https://www.grainger.com/product/80-20-Bolt-Assembly-M8-Size-5JRH6?opr=OAPD&analytics=relItems_5JRP7&position=1 | 
 
 ## Parametric Modeling - Jacob Shaver
+
+### CAD Design of the Crosshead
+After designing everything on paper it was time for me to begin designing the crosshead in CAD. We chose to use CREO PTC to do all CAD work on this assignment. 
+
+As shown below, I started with a big box that had the length and width dimensions of 280 and 80 respectively. After making that I added two holes with a diameter of 12mm, the first of which was measured 40mm off the side like I planned and the other was 200mm off that hole. Both holes were made so that they lied at the center of the box's width. I then extruded the box to be at the thickness that I calculated earlier. 
+
+PICTURE 1, CAD 1
+
+After that I needed to add the holes for fastening the flange nut to the cross body. To achieve this I made a reference circle with a diameter that equaled the internal mount diameter on the flange. I then placed 4 circles with a matching diameter to the flange nut's and extruded it through the part. To make this change on both sides of the cross head, I used a reference plane placed i the middle to mirror the holes I made to the other side. This process can be seen in the two picture below.
+
+PICTURE 2, CAD 2
+PICTURE 3, CAD 3
+
+After making all the dimensions to be around what they were in calculations I used the relations tab and parameters tab to assign each dimension based one the design parameters.
+
+PICTURE 4, PARAMETRIC DESIGN
+
+### Final assymbly
+Before I started on the assembly of the tensile tester, I wanted Landon to optimize through FEA first so that the final design was reflected through this assembly. I used various center and coincident constraints to design the final tensile tester below. One important note was that Landon found the bolt and nut that we used to fasten the flange to the crosshead. 
+
+PICTURE 10, FINAL ASSEMBLY
 
 ## FEA Optimization on Crosshead - Landon Toepfer
 This assignment required us to do FEA analysis and optimization on the crosshead itself because we are both in 2157 so we have extra work. I started this by adding a 1000N load on either side where the holes for the nut are because that is were the lead screws force would be coming through. Then I added a constraint on the center hole that I added, which you would thread the tensile sample into. It wasn't apparent how the samples were being tested and there is more than one type of sample shape so I went ahead and looked up a common thread for a tensile sample. I ended on a 1/2 - 13 UNC thread which is common to have in the load cell of a tensile sampler. Moving on, I set my material of the body to 6061 aluminum. I also set my minimum element size to 10mm and went ahead with my first analysis. Here's a picture of my setup.  
@@ -65,6 +106,11 @@ PICTURE 9, DEFLECTION FINAL
 
 
 ## Crosshead Drawing - Jacob Shaver
+After Landon had optimized the crosshead through FEA, I worked on the drawing for the cross head. Below is how that drawing turned out.
+
+PICTURE 1, DRAWING
 
 ## Lessons Learned - Team Thoughts
+
+## Download our CAD Files
 
