@@ -59,6 +59,7 @@ PICTURE 6, THIRD STRESS
 PICTURE 7, THIRD DEFLECTION
 
 So my maximum stress was located on the rim of the center hole, it was 35 MPa which gives a safety factor of 7.8. The max deflection was 0.04043 mm in the end which is acceptable. Generally speaking the crosshead was very strong but it had no rounding or chamfering and was just a big block so there was a lot of excess weight so I decided to making rounding, chamfering, and material removal my main focus of optimizing the design. I started by removing the middle on either side of the center hole. I also thinned the part in the middle. I then rounded the outer edges and the inside of the cuts made in the center. I then added a 1 mm chamfer to all of the holes. I figured this was a great optimization and went to retest my design. I ended up getting a max stress of 132 MPA which sounds bad but its just a stress concentration on the rim of the middle hole again. The hole structure only experiences around 25 MPa at max, with the most being near the center. The max deflection did increase and now is 0.0732 mm which is still a very small amount. The starting mass was 1.821 kg and it ended with 1.400 kg. This means I saved about 22% of material and barely reduced the strength of the part. It also is a highly machinable design. Overall, I would consider the process an optimization success. Below are my results after the optimization. 
+
 PICTURE 8, STRESS FINAL
 PICTURE 9, DEFLECTION FINAL
 
