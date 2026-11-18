@@ -39,7 +39,9 @@ PICTURE 5: FEA 5 DISPLACEMENT
 
 ### Proposed Changes in the design
 
-After analyzing the max displacement and max stress along with their locations, I think the spot to change is at the ends of the beam. Once change that would lower some of the weight is to remove some material in the middle of the beam where it connects to the vertical one. Otherwise I think the original design is pretty good already and sufficient for what we need it to do. 
+PICTURE 6: FINAL CONVERGENCE TESTS
+
+After analyzing the max displacement and max stress along with their locations, I think the spot to change is at the ends of the beam. One change that would lower some of the weight is to remove some material in the middle of the beam where it connects to the vertical one. Otherwise I think the original design is pretty good already and sufficient for what we need it to do. 
 
 ## Verification of Side Bars Through FEA - Jacob Shaver
 
@@ -49,4 +51,24 @@ PICTURE 1: FEA 1
 
 ### FEA Analysis 1 & 2
 
+After setting up the required fixed points and load points, I began the study by using a mesh of 20mm. Once I ran that study I did another with a mesh of 15mm.
+
+Once more, the high-end for my stress was leagues higher than my yield strength; however, this was a singularity that wouldn't directly reflect the real world. This is why I did the same thing as earlier and used a tool to find my max stress on the bar. The values for analysis one ended up being 0.8113MPa for the first and 0.8077MPa for the second. These two values converged when tested. I sued these and compared them to the yield strength to find the safety factors, which were extremely high and converged. 
+
+PICTURE 2: FEA 2 STRESS
+
+For the displacement results, the max values were very low again. The max deflection was located at the upper left corner of the beam. Even though the max values were desirable, they did not end up converging.
+
+PICTURE 3: FEA 3 DISPLACEMENT
+
 ### FEA Analysis 2 & 3
+
+Since my displacement didn't converge I ran another pass with even finer element size of 10mm and compared it to the second analysis. Between these two analysis, the stress and the safety factor converged but the displacement still didn't. However, my values were still well within what we needed for the frame to be stable under the set conditions. 
+
+### Proposed Changes in the design
+
+PICTURE 6: FINAL CONVERGENCE TESTS
+
+After analyzing the max displacement and max stress along with their locations, I think the spot to change is at the middle of the beams. Once change that would lower some of the weight is to remove some material in the middle of the beam where it isn't being connected to another beam. This would greatly cutdown on the weight of the beam, and as long as too much isn't removed, it shouldn't lower the safety factor too greatly. Otherwise I still believe the original design is pretty good already and sufficient for what we need it to do. 
+
+## Final Assembly and Assembly Drawing - Jacob Shaver
