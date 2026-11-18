@@ -152,8 +152,8 @@ I learned about bearing stress and how forces get transferred through fasteners.
 ## Downloads
 The part files are inside of the drawing zips
 
-[Download the bearing mount drawing](bearing_mount.drw.zip)
-[Download our motor mount drawing](motor_mount.drw.zip)
-[Download our assembly drawing](tens_test.drw.zip)
-[Download our assembly](tensil_test_final.asm.zip)
+[Download the bearing mount drawing](bearing_mount.drw.zip)  
+[Download our motor mount drawing](motor_mount.drw.zip)  
+[Download our assembly drawing](tens_test.drw.zip)  
+[Download our assembly](tensil_test_final.asm.zip)  
 
