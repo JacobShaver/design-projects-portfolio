@@ -142,4 +142,18 @@ Here is the drawing of the assembly:
 <img width="983" height="628" alt="image" src="https://github.com/user-attachments/assets/3cc445c8-6782-4e72-9773-eca9b68f9448" />  
 
 ## Lessons Learned  
+## Lessons Learned  
+
+### Jacob
+Throughout this I learned how to use Creo PTC to complete FEA’s. Last time Landon did the FEA portion so it was nice to learn how to do it this time around. Math-wise I don't think I learned much as it was a lot of pretty basic stress applications, and I’m already used to selecting standard parts after testing strength.  
+
+### Landon  
+I learned about bearing stress and how forces get transferred through fasteners. I had to use a few equations I was unfamiliar with. One thing I think I built on was my ability to understand how standardized components fit into custom projects like this. The assignment is showing me how to combine custom parts and standard parts in order to achieve a final product that theoretically is more than capable than the assignment asks for. Overall I don't think a lot of it was new but it was challenging.  
+## Downloads
+The part files are inside of the drawing zips
+
+[Download the bearing mount drawing](bearing_mount.drw.zip)
+[Download our motor mount drawing](motor_mount.drw.zip)
+[Download our assembly drawing](tens_test.drw.zip)
+[Download our assembly](tensil_test_final.asm.zip)
 
