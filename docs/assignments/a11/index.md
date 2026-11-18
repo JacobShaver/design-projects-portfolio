@@ -65,10 +65,19 @@ PICTURE 3: FEA 3 DISPLACEMENT
 
 Since my displacement didn't converge I ran another pass with even finer element size of 10mm and compared it to the second analysis. Between these two analysis, the stress and the safety factor converged but the displacement still didn't. However, my values were still well within what we needed for the frame to be stable under the set conditions. 
 
+PICTURE 4: FEA 4 STRESS
+
+PICTURE 5: FEA 5 DISPLACEMENT
+
 ### Proposed Changes in the design
 
 PICTURE 6: FINAL CONVERGENCE TESTS
 
-After analyzing the max displacement and max stress along with their locations, I think the spot to change is at the middle of the beams. Once change that would lower some of the weight is to remove some material in the middle of the beam where it isn't being connected to another beam. This would greatly cutdown on the weight of the beam, and as long as too much isn't removed, it shouldn't lower the safety factor too greatly. Otherwise I still believe the original design is pretty good already and sufficient for what we need it to do. 
+After analyzing the max displacement and max stress along with their locations, I think the spot to change is at the middle of the beams. One change that would lower some of the weight is to remove some material in the middle of the beam where it isn't being connected to another beam. This would greatly cutdown on the weight of the beam, and as long as too much isn't removed, it shouldn't lower the safety factor too greatly. Otherwise I still believe the original design is pretty good already and sufficient for what we need it to do. 
 
 ## Final Assembly and Assembly Drawing - Jacob Shaver
+
+Below is the final assembly with all designed parts, and the drawing to go along with it.
+
+PICTURE 1: ASSEMBLY SS
+PICTURE 2: ASSEMBLY DRAWING SS
